@@ -1,6 +1,6 @@
 import 'dart:core';
+import 'package:city_portal/MainScreen.dart';
 import 'package:flutter/material.dart';
-import 'package:city_portal/RFQListScreen.dart';
 
 void main() {
   runApp(
@@ -8,7 +8,7 @@ void main() {
         debugShowCheckedModeBanner: false,
         title: "City of Cape Town Unofficial App", initialRoute: '/',
         routes: {
-          '/': (context) => RFQListScreen(),
+          '/': (context) => MainScreen(),
         },
       )
   );
